@@ -1,0 +1,62 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('beautiful-architecture-building-cityscape-macau-city.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px;
+    text-align: center;
+}
+
+#search-bar {
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 200px;
+}
+
+input[type="button"] {
+    padding: 8px;
+    cursor: pointer;
+}
+
+
+.aboutus{
+    margin:auto;
+    padding: 1px;
+    font-family : Arial, Helvetica, sans-serif;
+    color: rgb(255, 4, 67);
+}
+
+.searchbar{
+    border-radius: 50px;
+}
